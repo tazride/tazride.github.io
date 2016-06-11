@@ -1,0 +1,97 @@
+body{
+  font-family: verdana;
+  margin: 0px;
+  background-image: url('https://dl.dropboxusercontent.com/u/43609448/img/motocross-1280704_1920.jpg');
+  background-size: content;
+  background-repeat: no-repeat;
+}
+
+.tr-divider{  
+  width: 100%;
+  height: 3px;
+  background-color: orange;
+     -webkit-box-shadow: 0 8px 6px -6px rgba(255,255,255,.2);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+}
+
+.tr-hero{
+  text-align: center;
+}
+
+.tr-hero>h1{
+  color: white;
+  
+  font-style: italic;
+  font-size: 140px;
+  margin-bottom: 0px;
+/*   text-shadow: -4px 3px 2px rgba(255, 255, 255, .2); */
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.tr-hero>h1>span{
+  color: orange;
+}
+
+.tr-hero>h3{
+  color: white;
+  font-style: italic;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-shadow: rgba(0, 0, 0, 0.2) 2px 6px 5px, rgba(255, 255, 255, 0.4) 0px -4px 30px;
+}
+
+.tr-navbar{
+  min-height: 70px;
+  background-color: orange;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+    -webkit-box-shadow: 0 8px 6px -6px rgba(255,255,255,.2);
+    -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+    box-shadow: 0 8px 6px -6px rgba(0,0,0,0.7);
+}
+
+.tr-navbar-list{
+  font-weight: bold;
+  color: #2b2b2b;
+  text-align: right;
+}
+
+.tr-navbar-list>li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  cursor: pointer; 
+  border-bottom: 2px solid orange;
+}
+
+.tr-navbar-list>li:hover{
+  border-bottom: 2px solid #2b2b2b;
+}
+
+.content-wrapper{
+  width: 100%;
+  background-color: #2b2b2b;
+  min-height: 500px;
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.content-wrapper>p{
+ font-size: 20px;
+  font-size: italic;
+  width: 100%;
+  min-height: 70px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #ccc;
+  border-radius: 3px;
+}
+
+.content-wrapper>h2{
+  color: orange;
+}
+
