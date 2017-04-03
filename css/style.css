@@ -4,7 +4,7 @@ body{
   background-color: #2b2b2b;
   background-image: url('/img/motocross.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom 0px;
   background-repeat: no-repeat;
 }
 
